@@ -24,7 +24,7 @@ public class CalculadoraEscrita {
         
         System.out.print(" Digite um número usando algarismos ou por extenso. \n O maior número aceito é 999 (novecentos e noventa e nove) "
                          + "e o menor é -999 (menos novecentos e noventa e nove). \n Para o número três ser aceito, o digite sem acento \n"
-                         + " e para fechar, digite 'parar'. \n");        
+                         + " e para fechar, digite 'parar'. \n \n");        
         String entrada = sc.nextLine();
         
         while(!"parar".equals(entrada)){
